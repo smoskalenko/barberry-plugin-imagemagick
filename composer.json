@@ -8,10 +8,16 @@
             "email": "maxim@xiag.ch"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/smoskalenko/barberry-plugin-installer"
+        }
+    ],
     "require": {
         "php": "^5.6 || ^7.0",
         "barberry/interfaces": "dev-master",
-        "barberry/plugin-installer": "^3.0"
+        "barberry/plugin-installer": "dev-fix-memory-leaks"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7"
